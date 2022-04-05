@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Omuk Ali 1",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 3
+    },
+    {
+        "id": 2,
+        "name": "Omuk Ali 2",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 4
+    },
+    {
+        "id": 3,
+        "name": "Omuk Ali 3",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 5
+    },
+    {
+        "id": 4,
+        "name": "Omuk Ali 4",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 4
+    },
+    {
+        "id": 5,
+        "name": "Omuk Ali 5",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 2
+    },
+    {
+        "id": 6,
+        "name": "Omuk Ali 6",
+        "reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis libero natus perspiciatis iusto ad saepe praesentium atque molestiae repellat.",
+        "ratings": 4.5
+    }
+]
