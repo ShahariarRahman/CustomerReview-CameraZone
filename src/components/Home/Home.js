@@ -14,7 +14,7 @@ const Home = () => {
                         <p>Your next Camera</p>
                         <p className='text-blue-700'>Your best Camera</p>
                     </h1>
-                    <p className='text-xl text-gray-700 mt-10'>You can give your review in our website.You can give your review in our website.You can give your review in our website.You can give your review in our website.You can give your review in our website.</p>
+                    <p className='text-xl text-gray-700 mt-10'>We are selling all kinds of cameras. All products are 100% new and authentic. We sell cameras from Canon, Canon, Nikon, Sony, Panasonic, Fujifilm and many more brands. We have professional cameras for photography: Canon EOS 6D Mark II, Nikon D850, Panasonic Lumix G85, Sony Alpha A7 III, Sony Alpha A6400. Please buy a product and let us know about your experience with our product.</p>
                     <button className='text-blue-800 font-semibold bg-indigo-100 px-10 py-3 my-10 rounded-md hover:bg-blue-500 hover:text-white'>Live demo</button>
                 </div>
                 <div className='flex justify-center'>
