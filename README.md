@@ -1,6 +1,6 @@
 # Project Name: Camera Zone
 
-##  Netlify: [Live Site Link](https://github.com/facebook/create-react-app).
+##  Netlify: [Live Site Link](https://shahariar-assignment-9.netlify.app/).
 
 ### Description:
 * Home Section: Home section have heading and Recent 3 customer reviews. 
