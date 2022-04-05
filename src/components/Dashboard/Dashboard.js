@@ -5,9 +5,9 @@ import useData from '../../hooks/useData';
 const Dashboard = () => {
     const [data,] = useData([]);
     return (
-        <div className='grid lg:grid-cols-2 mt-20 gap-8 max-w-screen-xl mx-auto'>
-            <div className='flex flex-col items-center'>
-                <h2 className='text-xl font-bold text-blue-600  mb-6'>MONTH WISE SELL</h2>
+        <div className='grid lg:grid-cols-2 mt-16 gap-8 max-w-screen-xl mx-auto'>
+            <div className='flex flex-col items-center mx-4 bg-white rounded-lg shadow-md'>
+                <h2 className='text-xl font-bold text-blue-600 py-6'>MONTH WISE SELL</h2>
                 <LineChart width={400} height={300} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" strokeWidth={2} />
                     <XAxis dataKey="month" />
@@ -17,8 +17,8 @@ const Dashboard = () => {
                 </LineChart>
             </div>
 
-            <div className='flex flex-col items-center'>
-                <h2 className='text-xl font-bold text-blue-600  mb-6'>Investment VS Revenue</h2>
+            <div className='flex flex-col items-center mx-4 bg-white rounded-lg shadow-md'>
+                <h2 className='text-xl font-bold text-blue-600 py-6'>Investment VS Revenue</h2>
                 <AreaChart width={400} height={300} data={data} >
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -30,8 +30,8 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
 
-            <div className='flex flex-col items-center'>
-                <h2 className='text-xl font-bold text-blue-600  mb-6'>Investment VS Revenue</h2>
+            <div className='flex flex-col items-center mx-4 bg-white rounded-lg shadow-md'>
+                <h2 className='text-xl font-bold text-blue-600 py-6'>Investment VS Revenue</h2>
                 <BarChart width={400} height={300} data={data} >
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
@@ -43,8 +43,8 @@ const Dashboard = () => {
                 </BarChart>
             </div>
 
-            <div className='flex flex-col items-center'>
-                <h2 className='text-xl font-bold text-blue-600  mb-6'>Investment VS Revenue</h2>
+            <div className='flex flex-col items-center mx-4 bg-white rounded-lg shadow-md'>
+                <h2 className='text-xl font-bold text-blue-600 py-6'>Investment VS Revenue</h2>
                 <PieChart width={400} height={300}>
                     <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
